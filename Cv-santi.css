@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Top{
+    width: 100%;
+    height: 300px;
+    background: #74b6ec;
+    transform: rotate(-5deg);
+}
+
+.Top--content{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.Top__content--name{
+    color: beige;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    transform: rotate(5deg);
+    margin-bottom: 0;
+}
+
+.Top__content--info{
+    color: azure;
+    font-family: 'Noto Sans JP', sans-serif ;
+    font-size: 25px;
+    transform: rotate(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.top--img{
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: rotate(5deg);
+    overflow: hidden;
+}
+
+.top--img img{
+    width: 180px;
+    height: 320px;
+}
+
+.cuerpo{
+    width: 80%;
+    height: auto;
+    background: #74b6ec;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cuerpo--titulo{
+    color: beige;
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 4px azure solid;
+}
+
+.cuerpo--sec1{
+    color: azure;
+    font-family: 'Noto sans JP', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.cuerpo--sec2{
+    color: beige;
+    font-family: 'Noto sans JP', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.cuerpo span{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: azure;
+    color: #64B6AC;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .Volver{
+    color: azure;
+    font-family: 'Noto sans JP', sans-serif;
+    font-weight: bolder;
+  }
